@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ebuy_test:war exploded">
+    <output-path>$PROJECT_DIR$/target/ebuy_test</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ebuy_test" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/ebuy_test/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="ebuy_test/web/Web" />
+    </root>
+  </artifact>
+</component>
